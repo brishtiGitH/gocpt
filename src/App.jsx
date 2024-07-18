@@ -11,7 +11,7 @@ import Ellipses from "./components/ellipses";
 function App() {
   return (
     <Router>
-      <div className="app min-h-screen">
+      <div className="app min-h-screen w-full">
         <div className="fixed top-0 left-0 bottom-0 right-0">
           <div className="ellipse large-ellipse1 top-44 left-0 "></div>
           <div className="ellipse large-ellipse2 bottom-1 right-1"></div>
