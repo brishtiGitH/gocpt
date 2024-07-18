@@ -1,0 +1,13 @@
+.admin-page-container {
+  background-color: black;
+  background: black url("../../assets/Vector1.png");
+  background-size: cover;
+  color: aliceblue;
+}
+.admin-page-container h1,
+.admin-page-container .admin .back-btn {
+  font-family: "Padyakke Expanded One", serif;
+}
+.admin-page-container .admin {
+  font-family: "Jura", sans-serif;
+}

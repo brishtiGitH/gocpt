@@ -1,0 +1,14 @@
+.signup-page-container {
+  /* background-image: url(); */
+  background: black;
+
+  color: aliceblue;
+  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.7);
+}
+.signup-page-container h1 {
+  font-family: "Padyakke Expanded One", serif;
+}
+.signup-page-container .signup,
+.signup-page-container .isSignUp {
+  font-family: "Jura", sans-serif;
+}

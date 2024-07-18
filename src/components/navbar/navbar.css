@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #2b3a6348;
+}
+.navbar h1 {
+  font-family: "Padyakke Expanded One", serif;
+}
+.navbar nav ul li {
+  color: white;
+  font-family: "Jura", sans-serif;
+}

@@ -1,0 +1,13 @@
+.login-page-container {
+  /* background-image: url(); */
+  background: black url("../../assets/beats.png");
+  background-size: cover;
+  color: aliceblue;
+}
+.login-page-container h1 {
+  font-family: "Padyakke Expanded One", serif;
+}
+.login-page-container .login,
+.login-page-container .isLogIn {
+  font-family: "Jura", sans-serif;
+}

@@ -1,0 +1,21 @@
+.about-page-container {
+  font-family: "Jura", sans-serif;
+  color: white;
+}
+.about-page-container .page-content .picture {
+  background: url("../../assets/team.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-page-container button {
+  box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.43);
+  transition: all 0.5s;
+}
+.about-page-container button:hover {
+  box-shadow: none;
+}
+.about-page-container p {
+  color: #fedbff;
+  text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.43);
+}

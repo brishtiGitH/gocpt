@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Padyakke+Expanded+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: "Padyakke Expanded One", serif; */
+/*   font-family: "Jura", sans-serif; */
+/* font-family: "Offside", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo1 {
+  color: #f197f4;
+  /* font-family: "Padyakke Expanded One", serif; */
+}
+.logo2 {
+  color: #2b3a63;
+  /* font-family: "Padyakke Expanded One", serif; */
+  /* text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.285); */
+}
+.logo1,
+.logo2 {
+  font-weight: 700;
+}
+.btn {
+  border: 1px solid white;
+  padding: 3px 6px;
+  border-radius: 10px;
+  background: linear-gradient(#2b3a637c, #b282d381);
+}
+.btn:hover {
+  background: linear-gradient(#b282d381, #2b3a637c);
+}
+.ellipse {
+  background: linear-gradient(#f197f4, #aaced1);
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.3;
+  backdrop-filter: blur(10px);
+}
+.large-ellipse1 {
+  height: 403.16px;
+  width: 454.78px;
+}
+.large-ellipse2 {
+  height: 380.67px;
+  width: 420px;
+}
+.mid-ellipse1 {
+  width: 288.7px;
+  height: 258.95px;
+}
+.mid-ellipse2 {
+  height: 186.07px;
+  width: 220.87px;
+}
+.small-ellipse {
+  height: 149.63px;
+  width: 165.22px;
+}

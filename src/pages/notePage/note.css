@@ -1,0 +1,28 @@
+.note-page-container {
+  background: black url("../../assets/Vector1.png");
+  background-size: cover;
+  color: aliceblue;
+  font-family: "Jura", sans-serif;
+}
+.note-page-container .nav h1 {
+  font-family: "Padyakke Expanded One", serif;
+}
+.gradient {
+  background: linear-gradient(#f197f4, #2b3a63);
+
+  transition: all 0.3s;
+}
+.gradient:hover {
+  cursor: pointer;
+  background: linear-gradient(#2b3a63, #f197f4);
+}
+.scale {
+  color: #aaced1;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.note .middle .btn-1 {
+  background: linear-gradient(#302438, #936094);
+}
+.note .middle .btn-1:hover {
+  background: linear-gradient(#936094, #302438);
+}

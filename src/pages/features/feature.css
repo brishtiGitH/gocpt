@@ -1,0 +1,6 @@
+.feature-page-container {
+  font-family: "Jura", sans-serif;
+}
+.feature-page-container > div {
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}

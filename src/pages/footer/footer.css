@@ -1,0 +1,14 @@
+.footer-container {
+  color: white;
+}
+.footer-container .links nav ul li,
+.footer-container .company-details p {
+  font-family: "Jura", sans-serif;
+}
+.footer-container h1 {
+  font-family: "Padyakke Expanded One", serif;
+}
+.footer-container .email-link {
+  color: #5b6aaa;
+  text-decoration: underline;
+}
