@@ -1,8 +1,10 @@
 import React from "react";
 import "./signup.css";
 import Ellipses from "../../components/ellipses";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const navigate = useNavigate();
   return (
     <div className="signup-page-container relative z-10 min-h-screen w-full flex flex-col gap-8 lg:flex-row ">
       <Ellipses />
@@ -11,7 +13,9 @@ const Signup = () => {
         <h3 className="text-5xl text-center leading-tight">
           Already have an account?
         </h3>
-        <button className="btn text-2xl ">Log In</button>
+        <button onClick={() => navigate("/login")} className="btn text-2xl ">
+          Log In
+        </button>
       </div>
       <div className="signup w-full lg:w-3/4 h-full flex flex-col items-center justify-between">
         <h1 className="text-6xl  font-semibold">

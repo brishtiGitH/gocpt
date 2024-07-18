@@ -5,13 +5,18 @@ import BackArrow from "../../assets/Vector-arrow.png";
 import BackBtn from "../../assets/Vector-back.png";
 import VectorPf from "../../assets/Vector-pf.png";
 import VectorPfp from "../../assets/Vector-pfp.png";
+import { useNavigate } from "react-router-dom";
 
 const NotePage = () => {
+  const navigate = useNavigate();
   return (
     <div className="note-page-container min-h-screen md:h-auto w-full flex flex-col gap-10">
       <div className="nav w-full h-auto flex p-3 justify-between items-center bg-white bg-opacity-10 backdrop-filter backdrop-blur-xl">
-        <div className="flex justify-center items-center">
-          <img src={BackArrow} alt="back button arrow" className="" />
+        <div
+          onClick={() => navigate("/")}
+          className=" flex justify-center items-center hover:cursor-pointer"
+        >
+          <img src={BackArrow} alt="back button arrow" />
           <img src={BackBtn} alt="back button " />
         </div>
 
@@ -19,7 +24,10 @@ const NotePage = () => {
           <span className="logo1">Go</span>
           <span className="logo2">CPT</span>
         </h1>
-        <div className="flex relative">
+        <div
+          onClick={() => navigate("/admin")}
+          className=" flex relative hover:cursor-pointer"
+        >
           <img src={VectorPf} alt="" />
           <img src={VectorPfp} alt="" className="absolute left-3 top-1" />
         </div>
@@ -35,7 +43,7 @@ const NotePage = () => {
             </p>
           </div>
           <div>
-            <p className="text-xl md:text-3xl p-10 bg-white bg-opacity-25 backdrop-filter backdrop-blur-md rounded-2xl">
+            <p className="upload-note text-xl md:text-3xl p-10 bg-white bg-opacity-25 backdrop-filter backdrop-blur-md rounded-2xl">
               Click to upload a Note (pdf or doc file)
             </p>
           </div>
