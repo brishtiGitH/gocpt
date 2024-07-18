@@ -3,7 +3,7 @@ import "./regards.css";
 
 const Regards = () => {
   return (
-    <div className="min-h-screen w-full bg-black bg-opacity-5 backdrop-filter backdrop-blur-2xl regards-page-container text-center p-10 flex flex-col items-center justify-center gap-10">
+    <div className="min-h-screen w-full bg-black bg-opacity-5 backdrop-filter backdrop-blur-2xl regards-page-container text-center p-10 flex flex-col items-center justify-center gap-5 md:gap-10">
       <h1 className="text-4xl lg:text-6xl">
         Why <span className="font-bold">GoCPT?</span>
       </h1>
