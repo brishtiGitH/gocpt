@@ -1,4 +1,5 @@
 .navbar {
+  display: block;
   background-color: #2b3a6348;
   border: 1px solid #2b3a6340;
 }
