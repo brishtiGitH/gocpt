@@ -5,7 +5,7 @@ const About = () => {
     <div className="about-page-container bg-transparent min-h-screen w-full flex flex-col p-10 gap-5 items-center justify-center">
       <div className="page-content flex flex-col lg:flex-row w-full h-full">
         <div className="picture w-screen h-96 lg:h-[80vh] lg:w-1/2"></div>
-        <div className="about-content flex-1 w-full lg:w-1/2 flex flex-col items-center lg:items-end p-10 text-center lg:text-end justify-center gap-10">
+        <div className="about-content flex-1 w-full lg:w-1/2 flex flex-col items-center lg:items-end p-3 lg:p-10 text-center lg:text-end justify-center gap-10">
           <h1 className=" text-6xl 2xl:text-7xl underline decoration-2">
             About Us
           </h1>
