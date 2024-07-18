@@ -10,7 +10,7 @@ const Story = () => {
         Our Story
       </h1>
       <div>
-        <p className="text-[#FEDBFF] text-2xl text-left">
+        <p className="text-[#FEDBFF] text-xl md:text-2xl text-left">
           GoCPT was conceived by a passionate psychiatric nurse practitioner
           who, as a new graduate, felt overwhelmed by the complexities of CPT
           coding. Faced with the daunting task of mastering medical coding while
