@@ -19,7 +19,7 @@ const Contact = () => {
           <form action="" className="flex flex-col gap-5">
             <div>
               <input
-                className="border outline-none border-white bg-black rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-white  placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl"
+                className="border outline-none border-white  bg-black bg-opacity-25 rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-white  placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl"
                 type="text"
                 id="company-name"
                 placeholder="Company Name"
@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="border outline-none border-white bg-black rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white "
+                className="border outline-none border-white bg-black bg-opacity-25 rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white "
                 type="email"
                 id="contact-email"
                 placeholder="Email Address"
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
             <div>
               <input
-                className="border outline-none border-white bg-black rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white "
+                className="border outline-none border-white bg-black bg-opacity-25 rounded-2xl w-full p-2 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white "
                 type="text"
                 id="company-address"
                 placeholder="Company's Address"
@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
             <div>
               <textarea
-                className="border outline-none border-white bg-black rounded-2xl w-full p-3 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white"
+                className="border outline-none border-white bg-black bg-opacity-25 rounded-2xl w-full p-3 lg:p-4 text-2xl placeholder:text-base lg:placeholder:text-2xl md:placeholder:text-xl placeholder:text-white"
                 name="message"
                 id="message"
                 cols="30"

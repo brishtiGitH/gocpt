@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Navbar from "../../components/navbar/navbar.jsx";
 import LandingPage from "../../components/landingPage/landing.jsx";
 import FeaturePage from "../../components/features/feature.jsx";
@@ -12,6 +12,8 @@ import "./home.css";
 import Story from "../../components/story/story.jsx";
 
 const Home = () => {
+  const [mode, setMode] = useState(false);
+
   // const landingPageRef = useRef(null);
   const featurePageRef = useRef(null);
   const aboutRef = useRef(null);
@@ -41,7 +43,19 @@ const Home = () => {
     });
   }
   return (
-    <div className="home-page relative z-20 bg-transparent">
+    <div
+      className={`home-page relative z-20 bg-transparent ${
+        mode && "light-mode"
+      }`}
+    >
+      <button
+        onClick={() => {
+          setMode(!mode);
+        }}
+        className="text-xl fixed top-24 right-20 z-40 text-white font-bold"
+      >
+        LIGHT
+      </button>
       <Navbar
         scrollToFeaturePage={scrollToFeaturePage}
         scrollToAbout={scrollToAbout}
@@ -55,6 +69,7 @@ const Home = () => {
         <About />
       </div>
       <Story />
+
       <Regards />
       <AppDescriptionPage />
       <ContributePage />
