@@ -18,8 +18,11 @@
   color: #f197f4;
 }
 @media (max-width: 1025px) {
-  .navbar #navbar-faq,
+  /* .navbar #navbar-faq,
   #navbar-features {
+    display: none;
+  } */
+  .navbar {
     display: none;
   }
 }
