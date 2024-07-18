@@ -2,7 +2,7 @@ import React from "react";
 
 const Ellipses = () => {
   return (
-    <div>
+    <div className="fixed top-0 left-0 bottom-0 right-0 bg-[#0b0e15]">
       {/* ellipses */}
       <div className="ellipse large-ellipse1 top-44 left-0 "></div>
       <div className="ellipse large-ellipse2 bottom-1 right-1"></div>

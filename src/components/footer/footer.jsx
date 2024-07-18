@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 const Footer = () => {
   return (
-    <div className="footer-container border border-black bg-black bg-opacity-5 backdrop-filter backdrop-blur-2xl flex placeholder: flex-col md:flex-row justify-between items-center w-full h-auto p-5 md:p-10 lg:p-20">
+    <div className="footer-container border border-black bg-black bg-opacity-60 backdrop-filter backdrop-blur-2xl flex placeholder: flex-col md:flex-row justify-between items-center w-full h-auto p-5 md:p-10 lg:p-20">
       <div className="company-details w-full md:w-1/2 flex flex-col gap-5">
         <h1 className="text-6xl  font-semibold">
           <span className="logo1">Go</span>
