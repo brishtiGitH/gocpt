@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../../components/card/card";
+import Card from "../card/card";
 import { titles, descriptions } from "./data";
 import "./feature.css";
-import Ellipses from "../../components/ellipses";
+import Ellipses from "../ellipses";
 
 // console.log(titles[0]);
 const FeaturePage = () => {

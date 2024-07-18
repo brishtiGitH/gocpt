@@ -1,6 +1,6 @@
 import React from "react";
 import "./contributePage.css";
-import Card from "../../components/card/card";
+import Card from "../card/card";
 import { titles, descriptions } from "./data";
 
 const ContributePage = () => {

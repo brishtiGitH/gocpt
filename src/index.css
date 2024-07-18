@@ -27,6 +27,7 @@
 }
 .btn {
   border: 1px solid white;
+  color: white;
   padding: 3px 6px;
   border-radius: 10px;
   background: linear-gradient(#2b3a637c, #b282d381);
