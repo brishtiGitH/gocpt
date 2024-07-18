@@ -9,6 +9,7 @@ import ContributePage from "../../components/contribution/contributePage.jsx";
 import Contact from "../../components/contact/contact.jsx";
 import Footer from "../../components/footer/footer.jsx";
 import "./home.css";
+import Story from "../../components/story/story.jsx";
 
 const Home = () => {
   // const landingPageRef = useRef(null);
@@ -53,7 +54,7 @@ const Home = () => {
       <div ref={aboutRef}>
         <About />
       </div>
-
+      <Story />
       <Regards />
       <AppDescriptionPage />
       <ContributePage />
