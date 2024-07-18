@@ -6,7 +6,7 @@ import { titles, descriptions } from "./data";
 const ContributePage = () => {
   return (
     <div
-      className="contribute-container border border-white border-opacity-15 bg-white bg-opacity-5 backdrop-filter backdrop-blur-2xl w-full min-h-screen flex flex-col justify-center items-center p-12
+      className="contribute-container border border-white border-opacity-15 bg-white bg-opacity-5 backdrop-filter backdrop-blur-2xl w-full min-h-screen flex flex-col justify-center items-center p-5 lg:p-12
      gap-10"
     >
       <h1 className="text-5xl text-center">How Can You Contribute?</h1>
