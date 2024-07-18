@@ -1,7 +1,6 @@
 .app-desc-container {
   color: white;
   font-family: "Offside", sans-serif;
-  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 .app-desc-container h1,
 .app-desc-container p {

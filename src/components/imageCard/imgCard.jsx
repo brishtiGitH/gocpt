@@ -7,8 +7,8 @@ const ImgCard = ({ title, desc, cardImg }) => {
       <div className="card-img">
         <img className="rounded-xl" src={cardImg} alt="" />
       </div>
-      <h3 className="text-2xl ">{title}</h3>
-      <p className="text-base">{desc}</p>
+      <h3 className="text-xs sm:text-3xl ">{title}</h3>
+      <p className="text-xs sm:text-base">{desc}</p>
     </div>
   );
 };

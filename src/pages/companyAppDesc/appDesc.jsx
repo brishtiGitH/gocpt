@@ -14,10 +14,10 @@ import image8 from "../../assets/8.png";
 const AppDescriptionPage = () => {
   return (
     <div className="app-desc-container border border-white border-opacity-20 bg-black bg-opacity-5 bg-transparent backdrop-filter backdrop-blur-2xl w-full flex flex-col items-center gap-10 lg:gap-20 p-10  xl:p-20 rounded-3xl">
-      <h1 className="text-6xl underline decoration-2 text-center">
+      <h1 className="text-4xl md:text-6xl underline decoration-2 text-center">
         Ensuring CPT Code Accuracy with <br /> GoCPT App
       </h1>
-      <div className="card-grid grid grid-cols-3 gap-14 ">
+      <div className="card-grid grid grid-cols-1 xl:grid-cols-3 gap-14 p-10 xl:p-0  ">
         <ImgCard title={titles[0]} desc={descriptions[0]} cardImg={image1} />
         <ImgCard title={titles[1]} desc={descriptions[1]} cardImg={image4} />
         <ImgCard title={titles[2]} desc={descriptions[2]} cardImg={image5} />

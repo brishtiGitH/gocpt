@@ -1,5 +1,9 @@
 .navbar {
   background-color: #2b3a6348;
+  border: 1px solid #2b3a6340;
+}
+.navbar:hover {
+  background-color: #2b3a6381;
 }
 .navbar h1 {
   font-family: "Padyakke Expanded One", serif;
