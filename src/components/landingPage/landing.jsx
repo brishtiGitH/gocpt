@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="landing-page-container w-full min-h-full flex items-center">
       <div className="content p-10 flex flex-col 2xl:flex-row w-full items-center justify-center gap-10">
         <div className="left-content w-full 2xl:w-1/2 h-full flex flex-col justify-center gap-10 p-10 m-5 items-start">
-          <h1 className=" text-2xl md:text-4xl lg:text-5xl">
+          <h1 className=" text-3xl md:text-4xl lg:text-5xl">
             Welcome to <span className="logo1">Go</span>
             <span className="logo2">CPT</span> BETA Your Path to Effortless CPT
             Coding!
