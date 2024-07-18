@@ -7,8 +7,8 @@ import Ellipses from "../ellipses";
 // console.log(titles[0]);
 const FeaturePage = () => {
   return (
-    <div className="feature-page-container backdrop-filter backdrop-blur-xl relative bg-black min-h-screen p-10 text-white flex flex-col justify-center items-center ">
-      <Ellipses />
+    <div className="feature-page-container relative min-h-screen p-10 text-white flex flex-col justify-center items-center ">
+      {/* <Ellipses /> */}
       <div className="flex flex-col max-w-full justify-center items-center relative z-10  border border-white border-opacity-40 rounded-3xl  bg-black bg-opacity-10 backdrop-filter backdrop-blur-xl py-10 px-20 gap-10">
         <h1 className="text-3xl md:text-4xl lg:text-6xl underline decoration-2 text-center">
           Key Features of GoCPT BETA

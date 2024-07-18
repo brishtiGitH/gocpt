@@ -40,7 +40,7 @@ const Home = () => {
     });
   }
   return (
-    <div className="home-page">
+    <div className="home-page relative z-20 bg-transparent">
       <Navbar
         scrollToFeaturePage={scrollToFeaturePage}
         scrollToAbout={scrollToAbout}

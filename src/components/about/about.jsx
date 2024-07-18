@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 const About = () => {
   return (
-    <div className="about-page-container backdrop-filter backdrop-blur-xl bg-black min-h-screen w-full flex flex-col p-10 gap-5 items-center justify-center">
+    <div className="about-page-container bg-transparent min-h-screen w-full flex flex-col p-10 gap-5 items-center justify-center">
       <div className="page-content flex flex-col lg:flex-row w-full h-full">
         <div className="picture w-screen h-96 lg:h-[80vh] lg:w-1/2"></div>
         <div className="about-content flex-1 w-full lg:w-1/2 flex flex-col items-center lg:items-end p-10 text-center lg:text-end justify-center gap-10">

@@ -3,8 +3,8 @@ import "./contact.css";
 import ContactImg from "../../assets/contact-img.png";
 const Contact = () => {
   return (
-    <div className="rounded-[30px] mx-5 md:mx-10 2xl:mx-20 contact-page-container bg-opacity-5 backdrop-filter backdrop-blur-xl min-h-screen flex flex-col justify-center items-center py-5 px-10">
-      <h1 className=" text-4xl lg:text-5xl 2xl:text-6xl underline decoration-2 uppercase">
+    <div className=" contact-page-container rounded-[30px] my-10 lg:my-20 2xl:my-32 mx-5 md:mx-10 2xl:mx-20 backdrop-filter backdrop-blur-2xl  bg-black bg-opacity-20 min-h-screen flex flex-col justify-center items-center py-5 px-10">
+      <h1 className=" text-5xl xl:text-6xl underline decoration-2 uppercase">
         Contact Us
       </h1>
       <div className="flex flex-col 2xl:flex-row w-full ">
