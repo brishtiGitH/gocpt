@@ -18,3 +18,4 @@ export const descriptions = [
 
     "Stay abreast of changes in coding guidelines and standards. Familiarize yourself with any updates to CPT codes or relevant regulations. A well-informed approach ensures that your documentation aligns with current coding requirements"
 ]
+

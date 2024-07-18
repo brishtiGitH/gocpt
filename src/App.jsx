@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./pages/about/about";
 import Admin from "./pages/admin/admin";
+import AppDescriptionPage from "./pages/companyAppDesc/appDesc";
 import Contact from "./pages/contact/contact";
 import ContributePage from "./pages/contribution/contributePage";
 import FeaturePage from "./pages/features/feature";
@@ -15,15 +16,16 @@ import Regards from "./pages/story/regards";
 function App() {
   return (
     <div className="app">
-      <Login />
+      {/* <Login />
       <Signup />
       <Admin />
       <PasswordPage />
-      <NotePage />
+      <NotePage /> */}
       <LandingPage />
       <FeaturePage />
       <About />
       <Regards />
+      <AppDescriptionPage />
       <ContributePage />
       <Contact />
       <Footer />
