@@ -26,7 +26,7 @@ const Footer = () => {
         <nav>
           <ul className="flex md:flex-col text-base md:text-xl md:items-end gap-4">
             <li>Home</li>
-            <li>features</li>
+            <li>Features</li>
             <li>About Us</li>
             <li>Contact Us</li>
             <li>Terms & Conditions</li>
