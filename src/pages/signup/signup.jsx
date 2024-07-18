@@ -3,10 +3,12 @@ import "./signup.css";
 import Ellipses from "../../components/ellipses";
 import { useNavigate } from "react-router-dom";
 
-const Signup = () => {
+const Signup = ({ mode }) => {
   const navigate = useNavigate();
   return (
-    <div className="signup-page-container relative z-10 min-h-screen w-full flex flex-col gap-8 lg:flex-row ">
+    <div
+      className={`signup-page-container relative z-10 min-h-screen w-full flex flex-col gap-8 lg:flex-row`}
+    >
       <Ellipses />
 
       <div className="isSignUp relative z-10 order-2 lg:order-none w-full h-full lg:w-1/4 lg:h-screen flex gap-10 flex-col rounded-3xl p-3 justify-center items-center bg-white bg-opacity-15 backdrop-filter backdrop-blur-lg">

@@ -6,7 +6,7 @@ import Admin from "./pages/admin/admin";
 import PasswordPage from "./pages/passwordPage/password";
 import Signup from "./pages/signup/signup";
 import Login from "./pages/login/login";
-import Ellipses from "./components/ellipses";
+// import { useState } from "react";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <div className="ellipse small-ellipse top-2/3 left-16"></div>
           <div className="ellipse small-ellipse top-80 left-1/3"></div>
         </div>
+
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/signup" element={<Signup />} />

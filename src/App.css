@@ -1,3 +1,10 @@
 .app {
   background-color: #0b0e15;
 }
+.light-mode {
+  color: black !important;
+  background: linear-gradient(to left, #f197f4, #5b6aaa) !important;
+}
+.light-mode-second {
+  background: #5b6aaa;
+}
