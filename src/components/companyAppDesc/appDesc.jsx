@@ -1,7 +1,7 @@
 import React from "react";
 import "./appDesc.css";
 import { titles, descriptions } from "./data";
-import ImgCard from "../../components/imageCard/imgCard";
+import ImgCard from "../imageCard/imgCard";
 import image1 from "../../assets/1.png";
 import image2 from "../../assets/2.png";
 import image3 from "../../assets/3.png";
