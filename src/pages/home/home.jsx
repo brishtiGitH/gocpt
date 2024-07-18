@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Navbar from "../../components/navbar/navbar.jsx";
 import LandingPage from "../../components/landingPage/landing.jsx";
 import FeaturePage from "../../components/features/feature.jsx";
@@ -11,16 +11,57 @@ import Footer from "../../components/footer/footer.jsx";
 import "./home.css";
 
 const Home = () => {
+  // const landingPageRef = useRef(null);
+  const featurePageRef = useRef(null);
+  const aboutRef = useRef(null);
+  const contactRef = useRef(null);
+
+  function scrollToFeaturePage() {
+    let pos = featurePageRef.current.getBoundingClientRect().top;
+    window.scrollTo({
+      top: pos,
+      behavior: "smooth",
+    });
+  }
+
+  function scrollToAbout() {
+    let pos = aboutRef.current.getBoundingClientRect().top;
+    window.scrollTo({
+      top: pos,
+      behavior: "smooth",
+    });
+  }
+
+  function scrollToContact() {
+    let pos = contactRef.current.getBoundingClientRect().top;
+    window.scrollTo({
+      top: pos,
+      behavior: "smooth",
+    });
+  }
   return (
     <div className="home-page">
-      <Navbar />
+      <Navbar
+        scrollToFeaturePage={scrollToFeaturePage}
+        scrollToAbout={scrollToAbout}
+        scrollToContact={scrollToContact}
+      />
       <LandingPage />
-      <FeaturePage />
-      <About />
+      <div ref={featurePageRef}>
+        <FeaturePage />
+      </div>
+      <div ref={aboutRef}>
+        <About />
+      </div>
+
       <Regards />
       <AppDescriptionPage />
       <ContributePage />
-      <Contact />
+
+      <div ref={contactRef}>
+        <Contact />
+      </div>
+
       <Footer />
     </div>
   );

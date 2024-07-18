@@ -9,7 +9,11 @@ const Contact = () => {
       </h1>
       <div className="flex flex-col 2xl:flex-row w-full ">
         <div className="img w-full lg:w-1/2 mx-auto ">
-          <img src={ContactImg} alt="" />
+          <img
+            src={ContactImg}
+            className="obtect-contain 2xl:object-cover"
+            alt=""
+          />
         </div>
         <div className="form w-full lg:w-1/2 p-10 mx-auto ">
           <form action="" className="flex flex-col gap-5">

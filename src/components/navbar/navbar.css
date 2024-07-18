@@ -11,4 +11,9 @@
 .navbar nav ul li {
   color: white;
   font-family: "Jura", sans-serif;
+  cursor: pointer;
+  transition: all 1500ms;
+}
+.navbar nav ul li:hover {
+  color: #f197f4;
 }

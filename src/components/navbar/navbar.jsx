@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ scrollToFeaturePage, scrollToAbout, scrollToContact }) => {
   const navigate = useNavigate();
   return (
     <div className="navbar z-50 top-0 left-0 right-0 fixed w-full flex flex-row gap-5 justify-between items-center py-3 bg-opacity-5 backdrop-filter backdrop-blur-2xl">
@@ -15,9 +15,9 @@ const Navbar = () => {
           <ul className="nav flex justify-around text-2xl lg:text-3xl xl:text-4xl gap-6 ">
             <li>HOME</li>
             <li>FAQ</li>
-            <li>FEATURES</li>
-            <li>ABOUT US</li>
-            <li>CONTACT US</li>
+            <li onClick={scrollToFeaturePage}>FEATURES</li>
+            <li onClick={scrollToAbout}>ABOUT US</li>
+            <li onClick={scrollToContact}>CONTACT US</li>
           </ul>
         </nav>
       </div>
