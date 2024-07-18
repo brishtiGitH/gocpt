@@ -1,9 +1,13 @@
 .footer-container {
   color: white;
 }
+.footer-container .links nav ul li:hover {
+  color: #f197f4;
+}
 .footer-container .links nav ul li,
 .footer-container .company-details p {
   font-family: "Jura", sans-serif;
+  color: white;
 }
 .footer-container h1 {
   font-family: "Padyakke Expanded One", serif;
