@@ -52,9 +52,11 @@ const Home = () => {
         onClick={() => {
           setMode(!mode);
         }}
-        className="text-xl fixed top-24 right-20 z-40 text-white font-bold"
+        className={`text-xl fixed top-24 right-20 z-40 ${
+          mode ? "text-black" : "text-white"
+        } font-bold`}
       >
-        LIGHT
+        {mode ? "Dark" : "Light"}
       </button>
       <Navbar
         scrollToFeaturePage={scrollToFeaturePage}
