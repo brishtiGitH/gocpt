@@ -51,7 +51,7 @@ const Contact = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button className="btn text-4xl border lg:w-[274px] mx-auto pt-1 border-white border-opacity-20">
+            <button className="btn text-2xl lg:text-4xl border lg:w-[274px] mx-auto pt-1 border-white border-opacity-20">
               SUBMIT
             </button>
           </form>

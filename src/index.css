@@ -78,3 +78,14 @@
   border: 1px solid white;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .large-ellipse1 {
+    height: 0;
+    width: 0;
+  }
+  .large-ellipse2 {
+    height: 0;
+    width: 0;
+  }
+}
