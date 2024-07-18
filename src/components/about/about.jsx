@@ -9,15 +9,15 @@ const About = () => {
           <h1 className=" text-6xl 2xl:text-7xl underline decoration-2">
             About Us
           </h1>
-          <h2 className=" text-4xl 2xl:text-5xl">
+          <h2 className=" text-3xl lg:text-5xl">
             Empowering Mental Health Professionals with Simplified CPT Coding
           </h2>
-          <p className="text-2xl lg:text-3xl ">
+          <p className="text-xl md:text-2xl lg:text-3xl ">
             Welcome to goCPT, where the journey of revolutionizing the medical
             coding and billing landscape began with a single idea - to make
             mental health care more accessible to everyone.
           </p>
-          <p className="text-2xl lg:text-3xl ">
+          <p className="text-xl md:text-2xl lg:text-3xl ">
             Join us on this transformative journey as we continue to innovate
             and evolve, breaking down barriers and making mental health care
             accessible to all. Together, we can shape a future where healthcare
