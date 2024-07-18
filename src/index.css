@@ -62,3 +62,19 @@
   height: 149.63px;
   width: 165.22px;
 }
+.back-btn {
+  position: relative;
+}
+.back-btn::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 8px;
+  border: 1px solid black;
+  width: 0%;
+  transition: width 500ms ease;
+}
+.back-btn:hover::before {
+  border: 1px solid white;
+  width: 100%;
+}

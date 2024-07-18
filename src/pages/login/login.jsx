@@ -1,7 +1,9 @@
 import React from "react";
 import "./login.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <div className="login-page-container min-h-screen w-full flex flex-col gap-8 lg:flex-row ">
       <div className="login w-full lg:w-3/4 h-full flex flex-col items-center justify-around">
@@ -44,7 +46,9 @@ const Login = () => {
         <h3 className="text-5xl text-center leading-tight">
           Don't have an account?
         </h3>
-        <button className="btn text-2xl ">Sign Up</button>
+        <button onClick={() => navigate("/signup")} className="btn text-2xl ">
+          Sign Up
+        </button>
       </div>
     </div>
   );
