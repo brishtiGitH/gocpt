@@ -17,7 +17,7 @@ const AppDescriptionPage = () => {
       <h1 className="text-4xl md:text-6xl underline decoration-2 text-center">
         Ensuring CPT Code Accuracy with <br /> GoCPT App
       </h1>
-      <div className="card-grid grid grid-cols-1 xl:grid-cols-3 gap-14 p-3 lg:p-10 xl:p-0  ">
+      <div className="card-grid grid grid-cols-1 xl:grid-cols-3 gap-14 p-3 lg:p-10 xl:p-0 place-items-center content-center ">
         <ImgCard title={titles[0]} desc={descriptions[0]} cardImg={image1} />
         <ImgCard title={titles[1]} desc={descriptions[1]} cardImg={image4} />
         <ImgCard title={titles[2]} desc={descriptions[2]} cardImg={image5} />
